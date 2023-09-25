@@ -3,7 +3,10 @@
 nav{
     position: sticky;
     top: 0;
-    background-color: aliceblue;
+    background-color: rgb(231, 224, 224);
+    z-index: 2;
+    padding-top: 5px;
+    padding-bottom: 5px;
  
 }
 menu{
@@ -14,6 +17,7 @@ nav ul{
     align-items: center;
     justify-content: space-between;
     margin-top: 0;
+    margin-bottom: 0;
 }
 nav li{
     display: flex;
@@ -50,4 +54,18 @@ header{
     align-items: center;
     flex-direction: column;
     position: relative;
+}
+table{
+    border: 1px solid #090909;
+
+}
+table td{
+    border: 1px solid #871111;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
 }
